@@ -3,3 +3,11 @@ div,
 p {
 	font-family: 'Outfit', sans-serif;
 }
+
+nav {
+	background-color: #202020;
+}
+
+nav input .search {
+	margin: 20px;
+}
