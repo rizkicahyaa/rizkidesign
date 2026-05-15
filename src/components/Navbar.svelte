@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand-sm navbar-dark shadow-sm py-3">
-	<div class="container-fluid">
+<nav class="navbar navbar-expand-sm navbar-light shadow-sm py-4">
+	<div class="container">
 		<a class="navbar-brand" href="/">rizkidesign.id</a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
