@@ -1,6 +1,6 @@
 <script>
 	import Navbar from './components/Navbar.svelte';
-	import Heroes from './components/Heroes.svelte';
+	import Projects from './components/Projects.svelte';
 </script>
 
 <svelte:head>
@@ -8,4 +8,4 @@
 </svelte:head>
 
 <Navbar />
-<Heroes />
+<Projects />

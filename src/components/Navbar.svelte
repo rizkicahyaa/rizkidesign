@@ -1,12 +1,12 @@
-<nav class="navbar navbar-expand-sm navbar-light shadow-sm py-4">
+<nav class="navbar navbar-expand-sm navbar-light border-bottom sticky-top py-4">
 	<div class="container">
-		<a class="navbar-brand" href="/">rizkidesign.id</a>
+		<a class="navbar-brand" href="/"><strong><i>rizkidesign.id</i></strong></a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 
 		<div class="collapse navbar-collapse" id="navbarsExample03">
-			<ul class="navbar-nav m-auto mb-2 mb-sm-0">
+			<ul class="navbar-nav ms-auto mb-2 mb-sm-0">
 				<li class="nav-item">
 					<a class="nav-link" href="/">Home</a>
 				</li>
@@ -20,9 +20,6 @@
 					<a class="nav-link" href="/">Contact</a>
 				</li>
 			</ul>
-			<form>
-				<input class="form-control search" type="text" placeholder="Search" aria-label="Search" />
-			</form>
 		</div>
 	</div>
 </nav>
