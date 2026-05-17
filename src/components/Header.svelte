@@ -6,8 +6,8 @@
 			</div>
 			<div class="col-md-6 g-4" data-aos="fade-right">
 				<h1 class="mb-4">Hi! My name is Rizki Cahya Ramdani, I'm a Web Front-end & UI/UX Designer.</h1>
-				<a href="/" class="btn btn-dark me-2">Contact Me!</a>
-				<a href="/" class="btn btn-outline-dark">My Project</a>
+				<a href="#contact" class="btn btn-dark me-2">Contact Me!</a>
+				<a href="#projects" class="btn btn-outline-dark">My Project</a>
 			</div>
 		</div>
 	</div>
