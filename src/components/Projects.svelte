@@ -31,7 +31,7 @@
 	];
 </script>
 
-<section class="projects py-5">
+<section class="projects py-5" id="projects">
 	<div class="container">
 		<div class="row mb-4 border-bottom">
 			<div class="col-md-2" data-aos="fade-down">
