@@ -1,15 +1,4 @@
 <script>
-	import AOS from 'aos';
-	import 'aos/dist/aos.css';
-	import { onMount } from 'svelte';
-
-	onMount(() => {
-		AOS.init({
-			duration: 1000,
-			once: true
-		});
-	});
-
 	const projects = [
 		{
 			name: 'Gavi Poster',
@@ -45,12 +34,11 @@
 <section class="projects py-5">
 	<div class="container">
 		<div class="row mb-4 border-bottom">
-			<div class="col-md-2">
+			<div class="col-md-2" data-aos="fade-down">
 				<h1>PROJECTS</h1>
 			</div>
 		</div>
 		<div class="row">
-			<h4>Poster</h4>
 			{#each projects as project}
 				<div class="col-md-4 g-2">
 					<div class="card" data-aos="flip-left">
