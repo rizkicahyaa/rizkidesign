@@ -10,12 +10,36 @@
 		});
 	});
 
-	import GaviPoster from '../assets/poster-barca-gavi.png';
-	import MessiPoster from '../assets/poster-messi.png';
-	import BrunoPoster from '../assets/poster-mu-bruno.png';
-	import GarnaPoster from '../assets/poster-mu-garnacho-remake.png';
-	import PalmerPoster from '../assets/poster-chelsea-palmer.png';
-	import MartinezPoster from '../assets/poster-inter-martinez.png';
+	const projects = [
+		{
+			name: 'Gavi Poster',
+			image: '/images/poster-barca-gavi.png'
+		},
+		{
+			name: 'Messi Poster',
+			image: '/images/poster-messi.png'
+		},
+		{
+			name: 'Bruno Poster',
+			image: '/images/poster-mu-bruno.png'
+		},
+		{
+			name: 'Garna Poster',
+			image: '/images/poster-mu-garnacho-remake.png'
+		},
+		{
+			name: 'Chelsea Poster',
+			image: '/images/poster-chelsea-palmer.png'
+		},
+		{
+			name: 'Martinez Poster',
+			image: '/images/poster-inter-martinez.png'
+		},
+		{
+			name: 'Jones Poster',
+			image: '/images/poster-ipul-jones.png'
+		}
+	];
 </script>
 
 <section class="projects py-5">
@@ -26,48 +50,16 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-4 g-2">
-				<div class="card" data-aos="fade-up">
-					<div class="card-body">
-						<img src={GaviPoster} alt="" />
+			<h4>Poster</h4>
+			{#each projects as project}
+				<div class="col-md-4 g-2">
+					<div class="card" data-aos="flip-left">
+						<div class="card-body">
+							<img src={project.image} alt="" />
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-md-4 g-2">
-				<div class="card">
-					<div class="card-body">
-						<img src={MessiPoster} alt="" />
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 g-2">
-				<div class="card">
-					<div class="card-body">
-						<img src={BrunoPoster} alt="" />
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 g-2">
-				<div class="card">
-					<div class="card-body">
-						<img src={GarnaPoster} alt="" />
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 g-2">
-				<div class="card">
-					<div class="card-body">
-						<img src={PalmerPoster} alt="" />
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 g-2">
-				<div class="card">
-					<div class="card-body">
-						<img src={MartinezPoster} alt="" />
-					</div>
-				</div>
-			</div>
+			{/each}
 		</div>
 	</div>
 </section>
