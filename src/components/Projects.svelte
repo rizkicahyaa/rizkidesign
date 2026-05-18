@@ -34,14 +34,14 @@
 <section class="projects py-5" id="projects">
 	<div class="container">
 		<div class="row mb-4 border-bottom">
-			<div class="col-md-2" data-aos="fade-down">
-				<h1>PROJECTS</h1>
+			<div class="col-md-2">
+				<h1 data-aos="fade-down" data-aos-once="false">PROJECTS</h1>
 			</div>
 		</div>
 		<div class="row">
 			{#each projects as project}
 				<div class="col-md-4 g-2">
-					<div class="card" data-aos="flip-left">
+					<div class="card" data-aos="flip-left" data-aos-once="false">
 						<div class="card-body">
 							<img src={project.image} alt="" />
 						</div>
