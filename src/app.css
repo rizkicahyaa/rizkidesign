@@ -4,12 +4,20 @@ p {
 	font-family: 'Outfit', sans-serif;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5 {
 	font-family: 'EB Garamond', sans-serif;
 }
 
 nav {
-	background-color: #fff;
+	background-color: #fafafa;
+}
+
+header .container {
+	background-color: #fafafa;
 }
 
 .projects img {

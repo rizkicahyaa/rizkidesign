@@ -7,7 +7,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-6 py-3 px-3">
-				<div class="card px-5 py-5">
+				<div class="card px-5 py-5" style="background-color: aliceblue;" data-aos="zoom-in">
 					<h5 class="text-center mb-4">GET IN TOUCH</h5>
 					<div class="d-flex align-items-start">
 						<i class="bi bi-envelope me-3"></i>
@@ -26,7 +26,7 @@
 				</div>
 			</div>
 			<div class="col-md-6 py-3 px-3">
-				<div class="card py-5 px-5">
+				<div class="card py-5 px-5" style="background-color: #FAF0E6;" data-aos="zoom-in" data-aos-delay="500">
 					<h5 class="text-center mb-4">FOLLOW ME</h5>
 					<div class="d-flex align-items-start">
 						<i class="bi bi-envelope me-3"></i>
