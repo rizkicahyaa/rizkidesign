@@ -54,3 +54,7 @@ nav {
 .nav-item a {
 	text-decoration: underline;
 }
+
+.contact i {
+	font-size: 30px;
+}
