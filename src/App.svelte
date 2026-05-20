@@ -3,6 +3,7 @@
 	import Header from './components/Header.svelte';
 	import Projects from './components/Projects.svelte';
 	import Contact from './components/Contact.svelte';
+	import Footer from './components/Footer.svelte';
 	import AOS from 'aos';
 	import 'aos/dist/aos.css';
 	import { onMount } from 'svelte';
@@ -23,3 +24,4 @@
 <Header />
 <Projects />
 <Contact />
+<Footer />
