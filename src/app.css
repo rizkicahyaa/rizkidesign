@@ -70,3 +70,41 @@ header .container {
 footer {
 	background-color: #fafafa;
 }
+
+.contact-card,
+.social-card {
+	border-radius: 20px;
+	transition: 0.3s ease;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.contact-card {
+	background: #eaf2f8;
+}
+
+.social-card {
+	background: #f5eee6;
+}
+
+.icon-box {
+	width: 55px;
+	height: 55px;
+	border-radius: 50%;
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.4rem;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.contact-item h6 {
+	font-weight: 600;
+}
+
+.contact-item p,
+.contact-item a {
+	margin: 0;
+	color: #475569;
+	text-decoration: none;
+}
